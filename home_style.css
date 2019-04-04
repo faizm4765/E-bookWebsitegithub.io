@@ -1,0 +1,323 @@
+.container
+	{
+		width :100%;
+		overflow :hidden;
+		margin-top :0;
+	} 
+	
+body
+	{
+			font-family :arial,helvectica;
+			font :15px;
+			line-height :1.5;
+		
+		
+	}
+	
+.company>h2
+	{
+		font-size:22px;
+		padding-top:-5px;
+		
+	}
+	
+header
+	{
+		min-height:60px;
+		background :#ffffff;;;
+		//padding-top :20px;
+		padding-bottom: 1px;
+	}
+header h1
+	{
+		color:#000;
+		font-size:45px;
+		margin-top:0px;
+		padding-top:30px;
+		margin-left:20px;
+	}
+header h2
+	{
+		font-size:15px;
+		color:#c1c1c1;
+		margin-left:20px;
+	}
+
+	
+ul 
+	{
+		margin-top :0;
+		padding :0; 
+	}
+	 
+header li
+	{
+		float :left;
+		display :inline;
+		padding: 0 10px 0 10px;
+		margin-top:0;
+	
+	}
+	
+header nav
+	{
+		float: right;
+		margin-top: 23px;
+		margin-right:14px;
+		padding:0 0 0 0;
+		position :relative;
+		background-color: #ffffff;
+		color:red;
+		//font-weight:bold;
+	}
+	
+header a:hover
+	{
+		text-decoration:underline !important;
+		font-weight:bold;
+		//background-color:#c1c1c1;
+		
+	}
+.icons
+{
+	padding-right:12px;
+}
+	
+
+	
+	
+	
+.mid
+	{	
+		margin-top :25px;
+		text-align:center;
+		padding-bottom: 19px;
+		padding-top:25px;
+	}
+.mid1
+	{
+		//border :3px solid #000;
+		box-sizing :border-box;
+		width:40%;
+		float:left;
+		margin-left: 0;
+		margin-top:40px;
+		padding-top:47px;
+		padding-left :35px;
+		padding-right :9px;
+		text-align:justify;
+		word-wrap:break-word; 
+	}
+.mid1>h3
+	{
+		color:red;
+		margin-left:30px;
+	}
+.mid1>p
+	{
+		//text-indent:20px;
+		text-align:center;
+		
+	}
+.mid2
+	{
+		//border :3px solid #000;
+		margin-top:0px;
+		width :40%;
+		margin-top :80px;
+		padding-left:7px;
+		padding-right:0;
+		float :right;
+		//position:relative;
+		word-wrap:break-word;
+	}
+	
+.mid2>h3
+	{
+		color:red;
+		margin-left:30px;
+	}
+	
+.mid2>p
+	{
+		text-align:center;
+		margin-right:30px;
+		margin-left:0;
+	}
+	
+	
+.quote
+	{	
+		margin-top:400px;
+		margin-left:20px;
+		padding-top:20px;
+		font:helvectica;
+		//position:relative;
+		text-align:center;
+
+	}
+	
+.education
+	{
+			border :2px solid #000;
+			width: 50%;
+			text-align :center;
+			margin-top: 40px;
+			margin-bottom:25px;
+			border-radius:50%;
+			height:250px;
+			align :center;
+			position: sticky;
+			margin-left:23%;
+			background-image :url("./imgs./book7.jpg");
+			background-repeat:repeat;
+			opacity:0.8;
+			word-wrap:break-word;
+	}
+	
+
+	
+#new
+	{
+		//text-align: center;
+	width:100%;
+	color: #ffffff;
+	min-height: 300px;
+	//background-image:url("./imgs./c10.jpg");
+	background-color:#000;
+	background-repeat :repeat -400;
+	background-size: contain;
+	//background-position: center center;
+	margin-left:0;
+	margin-right:0;
+	display:block;
+	zoom:1;
+	}
+	
+/*.lineborder{
+    width: 351px;
+    float: left;
+    height: 21px;
+    background-color: :orange;
+}*/
+
+.boxed
+	{
+		border:1px solid orange;
+		width: 70%;
+		height:22px;
+		background:orange;
+		margin-top:0;
+		margin-bottom:15px;
+		
+	}
+
+	
+.image
+	{
+		margin-top:70px;
+		margin-left:130px;
+		height:260px;
+		float:left;
+		
+	}
+	
+.text
+	{
+		float:right;
+		position:relative;
+		margin-right:165px;
+		margin-top:150px;
+		
+	}
+.foot
+{
+	float :left;
+	background-color:#696969;
+	width:100%;
+	text-align:left;
+	margin-left: -15px;
+	padding-left:20px;
+}
+
+.innertext
+{
+	font-size: 15px;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 46px;
+	font-weight:bold;
+}
+//.innertext>p
+{
+	font-size: 15px;
+}
+
+.socialmedia
+{
+	margin-top:10px;
+	padding-top:0;
+	position:relative;
+	
+}
+.logo
+{
+	width:5%;
+	height:38px;
+}
+
+.collection
+{
+	text-align:center;
+	//padding-left:12px;
+	margin-left:12px;
+	display:inline;
+	border: 1px solid;
+	
+}
+
+.collection>h2{
+	
+	text-align:left;
+}
+
+.imagelogo
+{
+	float: right;
+	width: 14%;
+	height: 180px;
+	margin-right: 30px;
+	margin-top: -120px;
+	/*margin-bottom:10px;
+	padding-bottom:16px;
+	border-radius: 50%;
+	//padding-top:66px;*/
+	border-radius:50%;
+
+}
+
+.collection>h2
+{
+	margin-left: 20px;
+}
+.collection
+{
+	margin-bottom:190px;
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
